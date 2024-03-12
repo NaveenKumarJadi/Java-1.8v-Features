@@ -2,10 +2,22 @@ Configure your Emain and Name in GitBash with commmands:
 git config --global user.name "name"
 git config --global user.email "youremail@yourdomain.com"
 
+
+To commit the project into git:
 git init
 git add .
 git commit -m "commit message"
 git remote add origin "repo url"
 git push -u origin master
 git status
+git log
 
+If you want to unstage from staged state:
+git restore --staged FilenName
+git restore --staged ::all the files are unsatagged
+
+To clone the project:
+git clone
+
+To take latest code form gitHub:
+git pull
