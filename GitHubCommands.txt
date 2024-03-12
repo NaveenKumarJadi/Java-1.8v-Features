@@ -1,6 +1,11 @@
+Configure your Emain and Name in GitBash with commmands:
+git config --global user.name "name"
+git config --global user.email "youremail@yourdomain.com"
+
 git init
 git add .
 git commit -m "commit message"
 git remote add origin "repo url"
 git push -u origin master
 git status
+
